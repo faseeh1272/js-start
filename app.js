@@ -177,7 +177,7 @@ console.log(result);
  let myName = "ali";
 
  let city = "karachi";
-//  let message = "welcome to javascript!";
+ let message = "welcome to javascript!";
 
 
 
