@@ -44,21 +44,62 @@ let nomi = null;
 
 console.log(nomi);
 
+//  bigInt 
 
 let big =  123456787644543468877653588549n;
 console.log(big);
 
+
+// Symbol
 const id = Symbol("myid");
 
 console.log(id);
 
+
+// NaN
 let no = "a" + 2;
 
 console.log(no);
 
 
+// Object  key-value pairs
+
+let user ={
+   
+    name :"faseeh",
+    age : 18
 
 
+
+};
+console.log(user);
+
+let family ={
+
+brothers : 2,
+sister :1
+
+};
+
+console.log(family);
+
+
+// Array list ya collection of values
+let totals = [ 1 , 2 , 3  ];
+console.log(totals);
+
+var a = 10;
+var b = a;
+b = 20;
+console.log(a)
+
+
+let obj1 = { name : "faseeh"  };
+let obj2 = obj1;
+
+obj2.name = "badshah";
+
+console.log(obj1.name)
 
 
 // let name = "faseeh";
@@ -83,5 +124,61 @@ console.log(no);
 
 
 
+// Please resolve this equation step by step using js
+
+    //  18÷(3+3)×4−{12−[5×(2+1)]}+7^2
+
+var a;
+a = 1;
+console.log(a);
+var a = 3;
+console.log(a);
+var a = 2;
+
+var a = 5; 
+a = 4;
+console.log(a); 
+
+var greeting = "hello how are you!";
+alert(greeting);
+
+var a = 1 + 1;
+var b = 2-1;
+var c = 2 * 2;
+var d = 6 / 3;
+// console.log("test");
+
+// BODMAS | BARCKET OPEN DIVIDE MULTIPLY ADDITION SUBSTRACTION
+
+//  18÷(3+3)×4−{12−[5×(2+1)]}+7^2
+
+var values  = 18 / (3 + 3) * 4 - (12 - ( 5 * (2 + 1))) + 7 ** 2;
+
+var calculation = 12 + 3 + 49;
+var  result =  calculation;
+ 
+console.log(result);
+
+    
+
+ let name = "faseeh";
+ alert("hello " + name);
 
 
+ var age = 18;
+
+
+ if (age >= 18){
+    alert("you are eligible!")
+ }else{
+    alert("you are not eligible!")
+ }
+
+ let myName = "ali";
+
+ let city = "karachi";
+//  let message = "welcome to javascript!";
+
+
+
+ 
