@@ -253,7 +253,9 @@
 for (i = 0; i <= 10; i++){
     console.log(i);
 }
-
+for (var i = 1; i <= 10; i++) {
+  console.log("2 x " + i + " = " + (2 * i));
+}
 
 
 //  2 : while loop 
@@ -265,6 +267,7 @@ while (i <= 10){
     i++
 }
 
+ 
 
 
 
