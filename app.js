@@ -315,14 +315,17 @@ alert("well come to our website")
 // alert(`My name is ${name} and my age is ${age}`);
 
 
-var name = "faseeh";
+// var name = "faseeh";
 
-console.log(name.length);
-console.log(name.toUpperCase());
-var age = 22 ;
+// console.log(name.length);
+// console.log(name.toUpperCase());
+// var age = 22 ;
 
-alert(`my name is ${name} and my age is ${age}`);
+// alert(`my name is ${name} and my age is ${age}`);
 
+let number = 12;
+let nmu2 = 22.3;
+let num3 = -20;
 
 
 
