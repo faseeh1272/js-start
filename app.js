@@ -323,29 +323,34 @@ alert("well come to our website")
 
 // alert(`my name is ${name} and my age is ${age}`);
 // number = numeric value
-let number = 12;
-let nmu2 = 22.3;
-let num3 = -20;
-// number main quotes nahi hoty 
+// let number = 12;
+// let nmu2 = 22.3;
+// let num3 = -20;
+// // number main quotes nahi hoty 
 
-alert(number);
+// alert(number);
 
-var a = 20;
-var b = 30;
+// var a = 20;
+// var b = 30;
 
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
 
-// string vs number (important)
+// // string vs number (important)
 
 
-let x = Number("10");
-let y = +"30";
+// let x = Number("10");
+// let y = +"30";
 
-console.log(typeof y);
+// console.log(typeof y);
  
 
-alert(x + y);
+// alert(x + y);
 
+
+let num1 = +prompt("Enter a nmuber");
+let nmu2 = +prompt("Enter a seond number");
+
+alert(num1 + nmu2);
