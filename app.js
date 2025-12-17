@@ -322,10 +322,12 @@ alert("well come to our website")
 // var age = 22 ;
 
 // alert(`my name is ${name} and my age is ${age}`);
-
+// number = numeric value
 let number = 12;
 let nmu2 = 22.3;
 let num3 = -20;
+// number main quotes nahi hoty 
 
+alert(number);
 
 
