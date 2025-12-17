@@ -291,6 +291,12 @@ alert("well come to our website")
 // console.log(name);
 
 
+var city = 'karachi';
+
+var country = `pakistan`;
+alert( country);
+
+
 
 
 
