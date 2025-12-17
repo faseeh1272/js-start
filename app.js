@@ -300,6 +300,11 @@ var msg = 'my name is  "faseeh" '
 
 alert(msg);
 
+var fName = "faseeh";
+var lName = " naqvi";
+
+alert(fName + " " +  lName);
+
 
 
 
