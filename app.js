@@ -1,273 +1,289 @@
-// // alert("this is an alert message! 111111111");
+// // // alert("this is an alert message! 111111111");
 
 
-// // var my name = 25 space not allowed
+// // // var my name = 25 space not allowed
 
-// // var _myname = 25 _ and $ sign allowed just
+// // // var _myname = 25 _ and $ sign allowed just
 
-// // var 1name = 25 nuber at start not allowed
+// // // var 1name = 25 nuber at start not allowed
 
-// // var myName1 = 25 Number between and end allowed
+// // // var myName1 = 25 Number between and end allowed
 
-// // camel case
+// // // camel case
 
-// // var myName = 25 
-
-
-// // var NyName =25 THIS IS A pascal case
-
-// // snack case 
-
-// // var my_first_name = 25 this is a snack case
-
-// // var  MY_NAME_NAME = 25 THIS A SCREAMING CASE 
-
-// // DATA TYPES 
+// // // var myName = 25 
 
 
-// // primitive
+// // // var NyName =25 THIS IS A pascal case
 
-// // 1: string
-// let profile;
-// console.log(profile);
-// // let data = null;
-// // console.log(data);   // null
+// // // snack case 
 
-// let fasih = null;
-// console.log(fasih);
+// // // var my_first_name = 25 this is a snack case
 
+// // // var  MY_NAME_NAME = 25 THIS A SCREAMING CASE 
 
-// let ibrahim;
-// console.log(ibrahim)
-
-// let nomi = null;
-
-// console.log(nomi);
-
-// //  bigInt 
-
-// let big = 123456787644543468877653588549n;
-// console.log(big);
+// // // DATA TYPES 
 
 
-// // Symbol
-// const id = Symbol("myid");
+// // // primitive
 
-// console.log(id);
+// // // 1: string
+// // let profile;
+// // console.log(profile);
+// // // let data = null;
+// // // console.log(data);   // null
 
-
-// // NaN
-// let no = "a" + 2;
-
-// console.log(no);
-
-
-// // Object  key-value pairs
-
-// let user = {
-
-//     name: "faseeh",
-//     age: 18
+// // let fasih = null;
+// // console.log(fasih);
 
 
+// // let ibrahim;
+// // console.log(ibrahim)
 
-// };
-// console.log(user);
+// // let nomi = null;
 
-// let family = {
+// // console.log(nomi);
 
-//     brothers: 2,
-//     sister: 1
+// // //  bigInt 
 
-// };
-
-// console.log(family);
-
-
-// // Array list ya collection of values
-// let totals = [1, 2, 3];
-// console.log(totals);
-
-// var a = 10;
-// var b = a;
-// b = 20;
-// console.log(a)
+// // let big = 123456787644543468877653588549n;
+// // console.log(big);
 
 
-// let obj1 = { name: "faseeh" };
-// let obj2 = obj1;
+// // // Symbol
+// // const id = Symbol("myid");
 
-// obj2.name = "badshah";
+// // console.log(id);
 
-// console.log(obj1.name)
+
+// // // NaN
+// // let no = "a" + 2;
+
+// // console.log(no);
+
+
+// // // Object  key-value pairs
+
+// // let user = {
+
+// //     name: "faseeh",
+// //     age: 18
+
+
+
+// // };
+// // console.log(user);
+
+// // let family = {
+
+// //     brothers: 2,
+// //     sister: 1
+
+// // };
+
+// // console.log(family);
+
+
+// // // Array list ya collection of values
+// // let totals = [1, 2, 3];
+// // console.log(totals);
+
+// // var a = 10;
+// // var b = a;
+// // b = 20;
+// // console.log(a)
+
+
+// // let obj1 = { name: "faseeh" };
+// // let obj2 = obj1;
+
+// // obj2.name = "badshah";
+
+// // console.log(obj1.name)
+
+
+// // // let name = "faseeh";
+
+// // // 2 : number
+
+// // // let age = 25;
+
+// // // let price = 2.70;
+
+// // // 3: Boolean (true and false)
+
+
+// // // let isOnline = true;
+// // // let isLoggedIn = false;
+
+// // // console.log("")
+
+
+
+
+
+
+
+// // // Please resolve this equation step by step using js
+
+// // //  18÷(3+3)×4−{12−[5×(2+1)]}+7^2
+
+// // var a;
+// // a = 1;
+// // console.log(a);
+// // var a = 3;
+// // console.log(a);
+// // var a = 2;
+
+// // var a = 5;
+// // a = 4;
+// // console.log(a);
+
+// // var greeting = "hello how are you!";
+// // alert(greeting);
+
+// // var a = 1 + 1;
+// // var b = 2 - 1;
+// // var c = 2 * 2;
+// // var d = 6 / 3;
+// // // console.log("test");
+
+// // // BODMAS | BARCKET OPEN DIVIDE MULTIPLY ADDITION SUBSTRACTION
+
+// // //  18÷(3+3)×4−{12−[5×(2+1)]}+7^2
+
+// // var values = 18 / (3 + 3) * 4 - (12 - (5 * (2 + 1))) + 7 ** 2;
+
+// // var calculation = 12 + 3 + 49;
+// // var result = calculation;
+
+// // console.log(result);
+
 
 
 // // let name = "faseeh";
-
-// // 2 : number
-
-// // let age = 25;
-
-// // let price = 2.70;
-
-// // 3: Boolean (true and false)
+// // alert("hello " + name);
 
 
-// // let isOnline = true;
-// // let isLoggedIn = false;
-
-// // console.log("")
+// // //  var age = 18;
 
 
+// // //  if (age >= 18){
+// // //     alert("you are eligible!")
+// // //  }else{
+// // //     alert("you are not eligible!")
+// // //  }
+
+// // let myName = "ali";
+
+// // let city = "karachi";
+// // let message = "welcome to javascript!";
+
+
+// // let fullAdress = myName + " " + city;
+// // console.log(fullAdress);
+
+
+// // let age = 20;
+
+// // let msg = "my age is ${20}"
+// // console.log(msg);
+
+// // let text = "hello";
+
+// // console.log(text.length);
+// // console.log(text.trim())
+
+// // // = assignment
+
+// // var a = 5;
+
+// // a += 5
+// // console.log(a);
+
+// // // -= subtaction and assignment
+
+// // a = 5;
+// // a -= 5
+// // console.log(a);
+
+// // // *=  multiply and assignment
+
+// // a = 5;
+// // a *= 5;
+
+// // console.log(a)
+
+
+// // //   / divide and assignment
+
+// // a = 5;
+// // a /= 5;
+// // console.log(a)
+
+// // var total = 300
+// // var math = +prompt("Enter your math number?");
+// // var physics = +prompt("Enter your physics number?")
+// // var urdu = +prompt("Enter your urdu number?")
+// // var obtained = math + physics + urdu;
+// // var grade;
+
+// // if (math >= 33) {
+// //      grade = "a+ grade"
+// //     alert("you are passed!");
+// // } else 
+// //     (physics >= 55) 
+// //     {
+// //     grade = "B Grade"
+// //     alert("you are failed!");
+// // }
+
+// // var num = 1;
+// // console.log(num);
+// // // var newNum = ++num;
+// // var newNum =  num++;
+// // //  console.log(num);
+// // console.log(newNum);
+
+// // var mes = "thanks for your input";
+// // alert(mes);
 
 
 
-
-
-// // Please resolve this equation step by step using js
-
-// //  18÷(3+3)×4−{12−[5×(2+1)]}+7^2
-
-// var a;
-// a = 1;
-// console.log(a);
-// var a = 3;
-// console.log(a);
-// var a = 2;
-
-// var a = 5;
-// a = 4;
-// console.log(a);
-
-// var greeting = "hello how are you!";
-// alert(greeting);
-
-// var a = 1 + 1;
-// var b = 2 - 1;
-// var c = 2 * 2;
-// var d = 6 / 3;
-// // console.log("test");
-
-// // BODMAS | BARCKET OPEN DIVIDE MULTIPLY ADDITION SUBSTRACTION
-
-// //  18÷(3+3)×4−{12−[5×(2+1)]}+7^2
-
-// var values = 18 / (3 + 3) * 4 - (12 - (5 * (2 + 1))) + 7 ** 2;
-
-// var calculation = 12 + 3 + 49;
-// var result = calculation;
-
-// console.log(result);
-
-
-
-// let name = "faseeh";
-// alert("hello " + name);
-
-
-// //  var age = 18;
-
-
-// //  if (age >= 18){
-// //     alert("you are eligible!")
-// //  }else{
-// //     alert("you are not eligible!")
-// //  }
-
-// let myName = "ali";
-
-// let city = "karachi";
-// let message = "welcome to javascript!";
-
-
-// let fullAdress = myName + " " + city;
-// console.log(fullAdress);
-
-
-// let age = 20;
-
-// let msg = "my age is ${20}"
-// console.log(msg);
-
-// let text = "hello";
-
-// console.log(text.length);
-// console.log(text.trim())
-
-// // = assignment
-
-// var a = 5;
-
-// a += 5
-// console.log(a);
-
-// // -= subtaction and assignment
-
-// a = 5;
-// a -= 5
-// console.log(a);
-
-// // *=  multiply and assignment
-
-// a = 5;
-// a *= 5;
-
-// console.log(a)
-
-
-// //   / divide and assignment
-
-// a = 5;
-// a /= 5;
-// console.log(a)
-
-// var total = 300
-// var math = +prompt("Enter your math number?");
-// var physics = +prompt("Enter your physics number?")
-// var urdu = +prompt("Enter your urdu number?")
-// var obtained = math + physics + urdu;
-// var grade;
-
-// if (math >= 33) {
-//      grade = "a+ grade"
-//     alert("you are passed!");
-// } else 
-//     (physics >= 55) 
-//     {
-//     grade = "B Grade"
-//     alert("you are failed!");
+// for (i = 0; i <= 10; i++){
+//     console.log(i);
+// }
+// for (var i = 1; i <= 10; i++) {
+//   console.log("2 x " + i + " = " + (2 * i));
 // }
 
-// var num = 1;
-// console.log(num);
-// // var newNum = ++num;
-// var newNum =  num++;
-// //  console.log(num);
-// console.log(newNum);
 
-// var mes = "thanks for your input";
-// alert(mes);
+// //  2 : while loop 
 
+// var i = 1;
 
+// while (i <= 10){
+//     console.log(i);
+//     i++
+// }
 
-for (i = 0; i <= 10; i++){
-    console.log(i);
-}
-for (var i = 1; i <= 10; i++) {
-  console.log("2 x " + i + " = " + (2 * i));
-}
+//  alert("hello wold");
 
 
-//  2 : while loop 
+// 1 : alert()
 
-var i = 1;
+alert("well come to our website")
 
-while (i <= 10){
-    console.log(i);
-    i++
-}
+let name = "faseeh";
 
- 
+// alert(name);
+
+// alert("hello" + " " + name);
+// let age = 25;
+// alert("your age is" + age);
+
+
+
 
 
 
