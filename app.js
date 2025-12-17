@@ -291,10 +291,14 @@ alert("well come to our website")
 // console.log(name);
 
 
-var city = 'karachi';
+// var city = 'karachi';
 
-var country = `pakistan`;
-alert( country);
+// var country = `pakistan`;
+// alert( country);
+
+var msg = 'my name is  "faseeh" '
+
+alert(msg);
 
 
 
