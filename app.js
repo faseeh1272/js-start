@@ -330,4 +330,22 @@ let num3 = -20;
 
 alert(number);
 
+var a = 20;
+var b = 30;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+
+// string vs number (important)
+
+
+let x = Number("10");
+let y = +"30";
+
+console.log(typeof y);
+ 
+
+alert(x + y);
 
