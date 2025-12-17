@@ -274,7 +274,7 @@
 
 alert("well come to our website")
 
-let name = "faseeh";
+// let name = "faseeh";
 
 // alert(name);
 
@@ -282,7 +282,13 @@ let name = "faseeh";
 // let age = 25;
 // alert("your age is" + age);
 
+// 2 : string 
 
+// let name = 'faseeh';
+
+// alert(name);
+
+// console.log(name);
 
 
 
