@@ -296,16 +296,32 @@ alert("well come to our website")
 // var country = `pakistan`;
 // alert( country);
 
-var msg = 'my name is  "faseeh" '
+// var msg = 'my name is  "faseeh" '
 
-alert(msg);
+// alert(msg);
 
-var fName = "faseeh";
-var lName = " naqvi";
+// var fName = "faseeh";
+// var lName = " naqvi";
 
-alert(fName + " " +  lName);
+// alert(fName + " " +  lName);
+// let age = 20;
+
+// let text = "my age is " + age ;
+// alert(text)
+
+// var name = "Faseeh";
+// var age = 22;
+
+// alert(`My name is ${name} and my age is ${age}`);
 
 
+var name = "faseeh";
+
+console.log(name.length);
+console.log(name.toUpperCase());
+var age = 22 ;
+
+alert(`my name is ${name} and my age is ${age}`);
 
 
 
