@@ -405,12 +405,25 @@ alert("well come to our website")
 
 //  Concatenating text strings
 
-let firstName = "faseeh";
-let lastName = "naqvi";
+// let firstName = "faseeh";
+// let lastName = "naqvi";
 
-let fullName = firstName + " " + lastName;
+// let fullName = firstName + " " + lastName;
 
-console.log(fullName);
+// console.log(fullName);
+
+// let msg = "hello";
+//  msg  +=  "world";
+//  console.log(msg);
+
+ let city = "karachi";
+
+ let country = "pakistan";
+
+ let address = city + ", " + country;
+ 
+console.log(address);
+
 
 
 
