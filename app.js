@@ -361,21 +361,57 @@ alert("well come to our website")
 // chapter 4 :  Variable Names Legal and Illegal
 
 
-let age = 12;
-let $age = 10;
-let userName = "faseeh naqvi";
-let user_name = "faseeh";
-let my_first_name = "name";
-let use123;
-let _user ;
+// let age = 12;
+// let $age = 10;
+// let userName = "faseeh naqvi";
+// let user_name = "faseeh";
+// let my_first_name = "name";
+// let use123;
+// let _user ;
 
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
-console.log(a + b);
-console.log(a * b);
-console.log(a - b);
-console.log(a / b);
-console.log(a % b);
+// console.log(a + b);
+// console.log(a * b);
+// console.log(a - b);
+// console.log(a / b);
+// console.log(a % b);
+
+
+// let a = 10;
+// console.log(a);
+// a++;
+// console.log(a);
+
+// // pre and post post increment  /decrement;
+
+// let num = 50;
+// console.log(num);
+// let result = ++num;
+// console.log(result);
+// console.log(num);
+
+
+
+// var bill = (2 * 1000) + 200;
+
+// let twoSandle = 1000;
+
+// let tax = 100;
+
+// let bill = (2 * 500) + 100;
+// console.log(bill);
+
+//  Concatenating text strings
+
+let firstName = "faseeh";
+let lastName = "naqvi";
+
+let fullName = firstName + " " + lastName;
+
+console.log(fullName);
+
+
 
 
