@@ -350,7 +350,32 @@ alert("well come to our website")
 // alert(x + y);
 
 
-let num1 = +prompt("Enter a nmuber");
-let nmu2 = +prompt("Enter a seond number");
+// let num1 = +prompt("Enter a nmuber");
+// let nmu2 = +prompt("Enter a seond number");
 
-alert(num1 + nmu2);
+// alert(num1 + nmu2);
+
+// let result = 10 / 3;
+// alert(result);
+
+// chapter 4 :  Variable Names Legal and Illegal
+
+
+let age = 12;
+let $age = 10;
+let userName = "faseeh naqvi";
+let user_name = "faseeh";
+let my_first_name = "name";
+let use123;
+let _user ;
+
+let a = 10;
+let b = 20;
+
+console.log(a + b);
+console.log(a * b);
+console.log(a - b);
+console.log(a / b);
+console.log(a % b);
+
+
