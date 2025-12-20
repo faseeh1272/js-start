@@ -457,13 +457,46 @@ alert("well come to our website")
 
 // if else  true ho to if false ho to else
 
-let age = 16;
+// let age = 16;
 
-if(age >= 15){
-    alert('you are not eligible!')
-}else{
-    alert("you are eligible!")
-}
+// if(age >= 15){
+//     alert('you are not eligible!')
+// }else{
+//     alert("you are eligible!")
+// }
+
+// let ages = 18;
+
+// if(ages >= 17){
+//     alert("you are not eligibe");
+// }else{
+//     alert("you are eligible");
+// }
+
+// let age = 16;
+// if(age >= 18){
+//     alert("you are eligible")
+// }else{
+//     alert("you are not eligible")
+// }
+// if...else if...else
+let nmuber = +prompt("Enter a number");
+    let age = 80;
+
+    if( Number > age){
+        console.log("grade A");
+    }else if ( Number === age){
+        console.log("grade B");
+        
+    }else{
+        console.log("you are fail");
+    }
+
+    let password = "admin1234";
+
+    if(password === "admin1234"){
+        alert("login successful")
+    }
 
 
 
