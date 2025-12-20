@@ -420,9 +420,20 @@ alert("well come to our website")
 
  let country = "pakistan";
 
- let address = city + ", " + country;
+ let address = ` ${city} ${country}`;
  
 console.log(address);
+
+let user = prompt("Enter your name");
+
+if(user){
+    alert("hello" + user);
+
+}else{
+    alert("you did not enter you name");
+}
+
+
 
 
 
