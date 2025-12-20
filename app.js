@@ -416,23 +416,48 @@ alert("well come to our website")
 //  msg  +=  "world";
 //  console.log(msg);
 
- let city = "karachi";
+//  let city = "karachi";
 
- let country = "pakistan";
+//  let country = "pakistan";
 
- let address = ` ${city} ${country}`;
+//  let address = ` ${city} ${country}`;
  
-console.log(address);
+// console.log(address);
 
-let user = prompt("Enter your name");
+// let user = prompt("Enter your name");
 
-if(user){
-    alert("hello" + user);
+// if(user){
+//     alert("hello" + user);
 
-}else{
-    alert("you did not enter you name");
+// }else{
+//     alert("you did not enter you name");
+// }
+
+
+// chapter 10 :  if statements
+
+// let age = 20;
+
+// if (age >= 18){
+//     alert("you are eligible!")
+// }
+
+
+// let age = 20;
+// if (age >= 18){
+//     alert('you are eligible!');
+// }
+
+let age = 18;
+
+if(age >= 16){
+    alert("you are not eligible")
 }
 
+
+// if else  true ho to if false ho to else
+
+    
 
 
 
