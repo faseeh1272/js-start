@@ -448,16 +448,22 @@ alert("well come to our website")
 //     alert('you are eligible!');
 // }
 
-let age = 18;
+// let age = 18;
 
-if(age >= 16){
-    alert("you are not eligible")
-}
+// if(age >= 16){
+//     alert("you are not eligible")
+// }
 
 
 // if else  true ho to if false ho to else
 
-    
+let age = 16;
+
+if(age >= 15){
+    alert('you are not eligible!')
+}else{
+    alert("you are eligible!")
+}
 
 
 
