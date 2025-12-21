@@ -345,7 +345,7 @@ alert("well come to our website")
 // let y = +"30";
 
 // console.log(typeof y);
- 
+
 
 // alert(x + y);
 
@@ -421,7 +421,7 @@ alert("well come to our website")
 //  let country = "pakistan";
 
 //  let address = ` ${city} ${country}`;
- 
+
 // console.log(address);
 
 // let user = prompt("Enter your name");
@@ -480,23 +480,93 @@ alert("well come to our website")
 //     alert("you are not eligible")
 // }
 // if...else if...else
-let nmuber = +prompt("Enter a number");
-    let age = 80;
+// let nmuber = +prompt("Enter a number");
+//     let age = 80;
 
-    if( Number > age){
-        console.log("grade A");
-    }else if ( Number === age){
-        console.log("grade B");
-        
-    }else{
-        console.log("you are fail");
-    }
+//     if( Number > age){
+//         console.log("grade A");
+//     }else if ( Number === age){
+//         console.log("grade B");
 
-    let password = "admin1234";
+//     }else{
+//         console.log("you are fail");
+//     }
 
-    if(password === "admin1234"){
-        alert("login successful")
-    }
+let password = prompt("Enter a password")
+
+
+
+// if (password === "admin1234") {
+//     alert("login successful");
+// } else {
+//     alert("wrong password");
+// }
+
+// let text =
+//     "world war II changed history in many countries, and many nations were involved during world war II. People remember world war II for its global impact, as technology advanced rapidly because of world war II. Families were deeply affected by world war II, and lessons were learned from the events of world war II. Books and films often focus on world war II, and today, students still study world war II in school.";
+
+// for (let i = 0; i < text.length; i++) {
+//   const targetWord = "world war II";
+//   const newWord = "Second World War";
+//   const targetWordLenght = targetWord.length;
+
+//   const startIndexOfTargetElement = text.indexOf(targetWord);
+
+//   const endIndexOfTargetElement =
+//     startIndexOfTargetElement + targetWordLenght - 1;
+
+//   if (startIndexOfTargetElement != -1) {
+//     const earlierPart = text.slice(0, startIndexOfTargetElement);
+
+//     const afterPart = text.slice(endIndexOfTargetElement + 1);
+
+//     text = earlierPart + newWord + afterPart;
+//     // debugger;
+//   }
+
+//   // debugger;
+// }
+// text = text.replace("world war II","second world war")
+// text = text.replaceAll("world war II", "second world war")
+// console.log(text);
+
+// let words = [ "apple" , "banana" , "orange" , "grapes"];
+
+// let vowels = [ "a" , "e" , "i" , "o" , "u"];
+
+// for(i = 0; i < words.length ; i++){
+//     let word = words[i];
+//     console.log("word :" , word);
+
+//     for(j = 0; j<words.length ; j++){
+//         if(vowels.includes(word[j])){
+//             console.log("vowel:" , word[j]);
+//         }
+//     }
+// }
+
+
+
+
+  let words = [ ];  // is main user k words store hun gy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
