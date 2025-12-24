@@ -611,7 +611,21 @@ if(marks >= 80){
 }else{
   alert("your all failed");
 }
+// comperison opratopers
 
+// == equal to
+
+// === strict equal to equal value and equal type
+
+  //  != not equal to
+  // > grater then 
+  // < less then 
+
+  // >= graeater then or equal to 
+
+  // <= less then or equal to 
+
+  
 
 
 
