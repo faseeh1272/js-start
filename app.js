@@ -625,7 +625,15 @@ if(marks >= 80){
 
   // <= less then or equal to 
 
-  
+  // logical operators 
+
+  // || or koi ak true ho to 
+
+  // && and  dono true hon
+
+  // ! not  ulta true ko false kar deta ha and false ko true kar deta ha
+
+let age = 25;
 
 
 
