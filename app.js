@@ -492,7 +492,7 @@ alert("well come to our website")
 //         console.log("you are fail");
 //     }
 
-let password = prompt("Enter a password")
+// let password = prompt("Enter a password")
 
 
 
@@ -550,13 +550,67 @@ let password = prompt("Enter a password")
 
   let words = [ ];  // is main user k words store hun gy
 
+  let vowels = [ "a" , "e" , "i" , "o" , "u" ]; // ye arry siif vowels k leye ha
+
+  totalVowels = 0;
+
+
+//   for(i = 0; i < words.length ; i++){
+//     let word = prompt("Enter word" , (i + 1))
+//     words.push(word)
+ 
+//       console.log(words);
+//   }
+   
+//  console.log(words);
 
 
 
+// for (let i = 0; i < 3; i++) {
+//     let word = prompt("Enter word " + (i + 1));
+//     words.push(word);
+//      console.log(words);
+
+ 
+// }
+
+// for(i = 0; i < words.length ; i++){
+//      let word = words[i].toLowerCase()
+//      console.log("word:" , word);
+
+//      for(j = 0 ; j < word.length ; j++){
+//         if(vowels.includes(word[j])){
+//             console.log("vowels:" + word[j]);
+//             totalVowels++;
+//         }
+//      }
+       
+//     }
+//        console.log("total voqwels:" + totalVowels);
 
 
 
+// let age = 25;
+// if(age >=  30){
+//   alert("your are eligible");
+// }else{
+//   alert('your are not eligible');
+// }
 
+
+// let marks = 70;
+  let marks = +prompt('Enetr your marks');
+if(marks >= 80){
+  alert("A+ grade");
+
+}else if(marks >= 70){
+  alert("A grade");
+}else if(marks >= 60){
+  alert('b grade');
+
+}else{
+  alert("your all failed");
+}
 
 
 
