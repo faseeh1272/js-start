@@ -634,7 +634,9 @@ if(marks >= 80){
   // ! not  ulta true ko false kar deta ha and false ko true kar deta ha
 
 let age = 25;
-
+if(age >= 18 && age <= 30){
+  alert("you are eligible");
+}
 
 
 
