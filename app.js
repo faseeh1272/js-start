@@ -716,3 +716,22 @@ console.log(fruits[3]);
 
 fruits.push("orange" , "kiwi");
 console.log(fruits);
+// pop method remove last element from array;
+fruits.pop(0);
+fruits.pop(1);
+console.log(fruits);
+
+// unshift method add new element at the start of array;
+
+fruits.unshift("pear");
+console.log(fruits);
+
+fruits.shift("pear");
+console.log(fruits);
+
+// length property returns the length of array;
+console.log(fruits.length);
+
+let frends = [ "ali" , "faseeh" , "ibrahim" , "nomi"];
+
+frends.splice(0 , 2);
