@@ -272,7 +272,7 @@
 
 // 1 : alert()
 
-alert("well come to our website")
+// alert("well come to our website")
 
 // let name = "faseeh";
 
@@ -548,20 +548,20 @@ alert("well come to our website")
 
 
 
-  let words = [ ];  // is main user k words store hun gy
+// let words = [ ];  // is main user k words store hun gy
 
-  let vowels = [ "a" , "e" , "i" , "o" , "u" ]; // ye arry siif vowels k leye ha
+// let vowels = [ "a" , "e" , "i" , "o" , "u" ]; // ye arry siif vowels k leye ha
 
-  totalVowels = 0;
+// totalVowels = 0;
 
 
 //   for(i = 0; i < words.length ; i++){
 //     let word = prompt("Enter word" , (i + 1))
 //     words.push(word)
- 
+
 //       console.log(words);
 //   }
-   
+
 //  console.log(words);
 
 
@@ -571,7 +571,7 @@ alert("well come to our website")
 //     words.push(word);
 //      console.log(words);
 
- 
+
 // }
 
 // for(i = 0; i < words.length ; i++){
@@ -584,7 +584,7 @@ alert("well come to our website")
 //             totalVowels++;
 //         }
 //      }
-       
+
 //     }
 //        console.log("total voqwels:" + totalVowels);
 
@@ -599,55 +599,104 @@ alert("well come to our website")
 
 
 // let marks = 70;
-  let marks = +prompt('Enetr your marks');
-if(marks >= 80){
-  alert("A+ grade");
+//   let marks = +prompt('Enetr your marks');
+// if(marks >= 80){
+//   alert("A+ grade");
 
-}else if(marks >= 70){
-  alert("A grade");
-}else if(marks >= 60){
-  alert('b grade');
+// }else if(marks >= 70){
+//   alert("A grade");
+// }else if(marks >= 60){
+//   alert('b grade');
 
-}else{
-  alert("your all failed");
-}
+// }else{
+//   alert("your all failed");
+// }
 // comperison opratopers
 
 // == equal to
 
 // === strict equal to equal value and equal type
 
-  //  != not equal to
-  // > grater then 
-  // < less then 
+//  != not equal to
+// > grater then 
+// < less then 
 
-  // >= graeater then or equal to 
+// >= graeater then or equal to 
 
-  // <= less then or equal to 
+// <= less then or equal to 
 
-  // logical operators 
+// logical operators 
 
-  // || or koi ak true ho to 
+// || or koi ak true ho to 
 
-  // && and  dono true hon
+// && and  dono true hon
 
-  // ! not  ulta true ko false kar deta ha and false ko true kar deta ha
+// ! not  ulta true ko false kar deta ha and false ko true kar deta ha
 
-let age = 25;
-if(age >= 18 && age <= 30){
-  alert("you are eligible");
+// let age = 25;
+// if(age >= 18 && age <= 30){
+//   alert("you are eligible");
+// }
+
+// let age = 20;
+// let cnic = true;
+
+// if(age >= 18 && cnic === true){
+//   alert("you are eligible to vote!")
+// }
+
+// let isStudent = false;
+// let hasCard = true;
+// if (isStudent === true || hasCard === true) {
+//   alert("discount mil jay ga");
+// }
+
+// let age = 20;
+// let hasCard = false;
+// let isMember = true;
+// if(age >= 18 && (hasCard === true || isMember === true )){
+//   alert("you are eligible for discount");
+// }
+
+
+
+// not  oprator
+
+// let isRaining = false;
+// if(!isRaining){
+//   alert("you can go outside");
+// // }
+// let isLoggedIn = false;
+// if(!isLoggedIn){
+//   alert("please login first to continue");
+// }
+// 
+
+
+// let marks = 75;
+// if(marks >= 50 && marks <= 75){
+//   alert("you have passsed");
+// }
+
+
+// let isStudent = true;
+// let hasCard = false;
+// if(isStudent ===true || hasCard === true){
+
+//   alert("you are eligible for discount");
+// }
+
+// let isLoggedIn = false;
+// if(!isLoggedIn){
+//   alert("please login in fisrt to continue");
+// }
+
+
+let age = 20;
+let hasCard = true;
+
+if(age >= 18 ){
+  if(hasCard === true){
+    alert("you can vote");
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
