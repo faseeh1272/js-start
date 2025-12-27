@@ -762,9 +762,14 @@
 
 let colors = [ "red" , "green" ,   "blue" , "yellow" ];
 
-let newColors = colors.slice(1 , 3);
+let newColors = colors.slice(-2);
 
 console.log(newColors);
 
+// splice method array main se element remove karny add karny and replace karny k leye use hota ha;
 
+let fruits = [ "apple" , "mango" , "banana" , "grapes" ];
+
+fruits.splice(1 ,2 )
+console.log(fruits);
 
