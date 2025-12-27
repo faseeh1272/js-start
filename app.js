@@ -734,4 +734,11 @@ console.log(fruits.length);
 
 let frends = [ "ali" , "faseeh" , "ibrahim" , "nomi"];
 
-frends.splice(0 , 2);
+frends.splice(0 , 2 , "asad" , "hamza");
+
+console.log(frends);
+
+let arr = ["red", "green", "blue"];
+arr.splice(1, 1, "yellow");
+console.log(arr);
+
