@@ -702,43 +702,69 @@
 // }
 // array start here array ka index 0 sy start hota ha:
 
-let fruits = [ "apple" , "mango", "banana" , "grapes" ];
-console.log(fruits);
-
-console.log(fruits[0]);
-console.log(fruits[1]);
-console.log(fruits[2]);
-console.log(fruits[3]);
-// push method add new element at the end of array;
-
-// fruits.push("orange");
+// let fruits = [ "apple" , "mango", "banana" , "grapes" ];
 // console.log(fruits);
 
-fruits.push("orange" , "kiwi");
-console.log(fruits);
-// pop method remove last element from array;
-fruits.pop(0);
-fruits.pop(1);
-console.log(fruits);
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits[3]);
+// // push method add new element at the end of array;
+
+// // fruits.push("orange");
+// // console.log(fruits);
+
+// fruits.push("orange" , "kiwi");
+// console.log(fruits);
+// // pop method remove last element from array;
+// fruits.pop(0);
+// fruits.pop(1);
+// console.log(fruits);
 
 // unshift method add new element at the start of array;
 
-fruits.unshift("pear");
-console.log(fruits);
+// fruits.unshift("pear");
+// console.log(fruits);
 
-fruits.shift("pear");
-console.log(fruits);
+// fruits.shift("pear");
+// console.log(fruits);
 
-// length property returns the length of array;
-console.log(fruits.length);
+// // length property returns the length of array;
+// console.log(fruits.length);
 
-let frends = [ "ali" , "faseeh" , "ibrahim" , "nomi"];
+// let frends = [ "ali" , "faseeh" , "ibrahim" , "nomi"];
 
-frends.splice(0 , 2 , "asad" , "hamza");
+// frends.splice(0 , 2 , "asad" , "hamza");
 
-console.log(frends);
+// console.log(frends);
 
-let arr = ["red", "green", "blue"];
-arr.splice(1, 1, "yellow");
-console.log(arr);
+// let arr = ["red", "green", "blue"];
+// arr.splice(1, 1, "yellow");
+// console.log(arr);
+
+
+// for (let i = 0; i <= arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+
+// let colors = [ "red" , "green" , "blue" , "yellow"];
+ 
+// colors.slice(1);
+// console.log(colors.slice(1 , 2 ));
+
+
+
+// Array.slice(startindex , endindex);
+// startindex = kahan sy shuru kana ha 
+
+// endindex = kahan tak lana ha lekin endindex wala index include nahi hoga
+
+let colors = [ "red" , "green" ,   "blue" , "yellow" ];
+
+let newColors = colors.slice(1 , 3);
+
+console.log(newColors);
+
+
 
