@@ -692,11 +692,20 @@
 // }
 
 
-let age = 20;
-let hasCard = true;
+// let age = 20;
+// let hasCard = true;
 
-if(age >= 18 ){
-  if(hasCard === true){
-    alert("you can vote");
-  }
-}
+// if(age >= 18 ){
+//   if(hasCard === true){
+//     alert("you can vote");
+//   }
+// }
+// array start here
+
+let fruits = [ "apple" , "mango", "banana" , "grapes" ];
+console.log(fruits);
+
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+console.log(fruits[3]);
