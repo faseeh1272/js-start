@@ -700,7 +700,7 @@
 //     alert("you can vote");
 //   }
 // }
-// array start here
+// array start here array ka index 0 sy start hota ha:
 
 let fruits = [ "apple" , "mango", "banana" , "grapes" ];
 console.log(fruits);
@@ -709,3 +709,10 @@ console.log(fruits[0]);
 console.log(fruits[1]);
 console.log(fruits[2]);
 console.log(fruits[3]);
+// push method add new element at the end of array;
+
+// fruits.push("orange");
+// console.log(fruits);
+
+fruits.push("orange" , "kiwi");
+console.log(fruits);
