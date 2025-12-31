@@ -776,29 +776,61 @@ console.log(newColors);
 
 // if statement  main true ho to code run kary ga false ho to skip kary ga.
 
-let age = 20;
+// let age = 20;
 
-if(age >18 ){
-    alert("you are eligible to vote");
-}
+// if(age >18 ){
+//     alert("you are eligible to vote");
+// }
 
-// nested if statemente pahly if condition ckeck hoti ha agar true ho to ander wali nested if condition check hoti ha 
-let ages =  25;
-cnic = true;
-if(ages >=18){
-    if(cnic === true){
-        alert("you are eligible to vote");
-    }else{
-        alert("cnic required");
+// // nested if statemente pahly if condition ckeck hoti ha agar true ho to ander wali nested if condition check hoti ha 
+// let ages =  25;
+// cnic = true;
+// if(ages >=18){
+//     if(cnic === true){
+//         alert("you are eligible to vote");
+//     }else{
+//         alert("cnic required");
+//     }
+// }else{
+//     alert("you are under 18 ");
+// }
+
+// let userName = "admin";
+// let password = "1234";
+// if(userName === "admin"){
+//     if(password === "1234"){
+//         alert("login successful");
+//     }else{
+//         alert("wrong password");
+//     }
+// }else{
+//     alert("wrong username")
+// }
+let bill = Number(prompt("Enter total bill amount"));
+let payment = Number(prompt("Enter payment amount"));
+
+if (payment > bill) {
+
+    let returnAmount = payment - bill;
+    alert("Return amount: " + returnAmount + " rs");
+
+    // Nested if for chocolate logic
+    if (returnAmount === 5) {
+        alert("Return: 1 Chocolate 🍫");
+
+    } else if (returnAmount === 7) {
+        alert("Return: 1 Chocolate 🍫 + 2 rs");
+
+    } else if (returnAmount === 10) {
+        alert("Return: 2 Chocolates 🍫🍫");
+
+    } else {
+        alert("Return cash: " + returnAmount + " rs");
     }
-}else{
-    alert("you are under 18 ");
-}
 
-let userName = "admin";
-let password = "1234";
-if(userName === "admin")[
-    if(password === "1234"){
-        alert("login successful");
-    }
-]
+} else if (payment === bill) {
+    alert("Exact payment. No return.");
+
+} else {
+    alert("Payment is less than bill ❌");
+}
