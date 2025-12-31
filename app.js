@@ -768,8 +768,16 @@ console.log(newColors);
 
 // splice method array main se element remove karny add karny and replace karny k leye use hota ha;
 
-let fruits = [ "apple" , "mango" , "banana" , "grapes" ];
+// let fruits = [ "apple" , "mango" , "banana" , "grapes" ];
 
-fruits.splice(1 ,2 )
-console.log(fruits);
+// fruits.splice(1 ,2 )
+// console.log(fruits);
 
+
+// if statement 
+
+let age = 20;
+
+if(age >18 ){
+    alert("you are eligible to vote");
+}
