@@ -774,10 +774,31 @@ console.log(newColors);
 // console.log(fruits);
 
 
-// if statement 
+// if statement  main true ho to code run kary ga false ho to skip kary ga.
 
 let age = 20;
 
 if(age >18 ){
     alert("you are eligible to vote");
 }
+
+// nested if statemente pahly if condition ckeck hoti ha agar true ho to ander wali nested if condition check hoti ha 
+let ages =  25;
+cnic = true;
+if(ages >=18){
+    if(cnic === true){
+        alert("you are eligible to vote");
+    }else{
+        alert("cnic required");
+    }
+}else{
+    alert("you are under 18 ");
+}
+
+let userName = "admin";
+let password = "1234";
+if(userName === "admin")[
+    if(password === "1234"){
+        alert("login successful");
+    }
+]
