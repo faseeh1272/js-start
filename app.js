@@ -834,3 +834,5 @@ if (payment > bill) {
 } else {
     alert("Payment is less than bill ❌");
 }
+
+let score 
