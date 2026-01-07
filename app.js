@@ -868,4 +868,13 @@ function makeLower(str){
     return str.toLowerCase();
 }
 
-console.log(makeLower("pakistan"))
+console.log(makeLower("pakistan"));
+
+
+function capitalize(str){
+    let firstchar = str.toUpperCase().slice(0,1);
+    let otherchars = str.toLowerCase().slice(1);
+    return firstchar + otherchars;
+}
+
+console.log(capitalize("karachi"));
