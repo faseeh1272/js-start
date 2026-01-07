@@ -760,11 +760,11 @@
 
 // endindex = kahan tak lana ha lekin endindex wala index include nahi hoga
 
-let colors = [ "red" , "green" ,   "blue" , "yellow" ];
+// let colors = [ "red" , "green" ,   "blue" , "yellow" ];
 
-let newColors = colors.slice(-2);
+// let newColors = colors.slice(-2);
 
-console.log(newColors);
+// console.log(newColors);
 
 // splice method array main se element remove karny add karny and replace karny k leye use hota ha;
 
@@ -806,33 +806,66 @@ console.log(newColors);
 // }else{
 //     alert("wrong username")
 // }
-let bill = Number(prompt("Enter total bill amount"));
-let payment = Number(prompt("Enter payment amount"));
+// let bill = Number(prompt("Enter total bill amount"));
+// let payment = Number(prompt("Enter payment amount"));
 
-if (payment > bill) {
+// if (payment > bill) {
 
-    let returnAmount = payment - bill;
-    alert("Return amount: " + returnAmount + " rs");
+//     let returnAmount = payment - bill;
+//     alert("Return amount: " + returnAmount + " rs");
 
-    // Nested if for chocolate logic
-    if (returnAmount === 5) {
-        alert("Return: 1 Chocolate 🍫");
+//     // Nested if for chocolate logic
+//     if (returnAmount === 5) {
+//         alert("Return: 1 Chocolate 🍫");
 
-    } else if (returnAmount === 7) {
-        alert("Return: 1 Chocolate 🍫 + 2 rs");
+//     } else if (returnAmount === 7) {
+//         alert("Return: 1 Chocolate 🍫 + 2 rs");
 
-    } else if (returnAmount === 10) {
-        alert("Return: 2 Chocolates 🍫🍫");
+//     } else if (returnAmount === 10) {
+//         alert("Return: 2 Chocolates 🍫🍫");
 
-    } else {
-        alert("Return cash: " + returnAmount + " rs");
-    }
+//     } else {
+//         alert("Return cash: " + returnAmount + " rs");
+//     }
 
-} else if (payment === bill) {
-    alert("Exact payment. No return.");
+// } else if (payment === bill) {
+//     alert("Exact payment. No return.");
 
-} else {
-    alert("Payment is less than bill ❌");
+// } else {
+//     alert("Payment is less than bill ❌");
+// }
+
+//  string ka case change karna 
+let text = "hello world"; 
+text = text.toUpperCase()
+console.log(text);
+
+
+let name = "faseeh naqvi";
+console.log(name.toUpperCase());
+
+let city = "karachi";
+console.log(city.toLowerCase());
+
+let userName = "fasEEh naqvi";
+result = userName.toLowerCase();
+console.log(result);
+
+let input = "pakistan zindabaad";
+if(input.toUpperCase() === "PAKISTAN ZINDABAAD"){
+    // alert("correct input");
+    console.log("match ho gia");
 }
 
-let score 
+function makeUpper(str){
+    return str.toUpperCase();
+}
+
+console.log(makeUpper("pakistan"));
+
+
+function makeLower(str){
+    return str.toLowerCase();
+}
+
+console.log(makeLower("pakistan"))
