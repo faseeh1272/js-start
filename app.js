@@ -835,46 +835,62 @@
 //     alert("Payment is less than bill ❌");
 // }
 
-//  string ka case change karna 
-let text = "hello world"; 
-text = text.toUpperCase()
-console.log(text);
+// //  string ka case change karna 
+// let text = "hello world"; 
+// text = text.toUpperCase()
+// console.log(text);
 
+
+// let name = "faseeh naqvi";
+// console.log(name.toUpperCase());
+
+// let city = "karachi";
+// console.log(city.toLowerCase());
+
+// let userName = "fasEEh naqvi";
+// result = userName.toLowerCase();
+// console.log(result);
+
+// let input = "pakistan zindabaad";
+// if(input.toUpperCase() === "PAKISTAN ZINDABAAD"){
+//     // alert("correct input");
+//     console.log("match ho gia");
+// }
+
+// function makeUpper(str){
+//     return str.toUpperCase();
+// }
+
+// console.log(makeUpper("pakistan"));
+
+
+// function makeLower(str){
+//     return str.toLowerCase();
+// }
+
+// console.log(makeLower("pakistan"));
+
+
+// function capitalize(str){
+//     let firstchar = str.toUpperCase().slice(0,1);
+//     let otherchars = str.toLowerCase().slice(1);
+//     return firstchar + otherchars;
+// }
+
+// console.log(capitalize("karachi"));
+
+// string ki length nikalna ;
 
 let name = "faseeh naqvi";
-console.log(name.toUpperCase());
+console.log(name.length);
 
-let city = "karachi";
-console.log(city.toLowerCase());
+let msg = "hello world";
+console.log(msg.length);
 
-let userName = "fasEEh naqvi";
-result = userName.toLowerCase();
-console.log(result);
-
-let input = "pakistan zindabaad";
-if(input.toUpperCase() === "PAKISTAN ZINDABAAD"){
-    // alert("correct input");
-    console.log("match ho gia");
-}
-
-function makeUpper(str){
-    return str.toUpperCase();
-}
-
-console.log(makeUpper("pakistan"));
+let text = "javascript";
+console.log(text.slice(0,4));
+console.log(text.slice(-6));
 
 
-function makeLower(str){
-    return str.toLowerCase();
-}
+// console.log(text.substring(4,10)); same as slice method but negative index not allowed in substring method;
 
-console.log(makeLower("pakistan"));
-
-
-function capitalize(str){
-    let firstchar = str.toUpperCase().slice(0,1);
-    let otherchars = str.toLowerCase().slice(1);
-    return firstchar + otherchars;
-}
-
-console.log(capitalize("karachi"));
