@@ -918,7 +918,7 @@ console.log(b.includes("easy"));
 
 console.log(b.indexOf("is"));
 
-console.log(b.lastIndexOf("s"))
+console.log(b.lastIndexOf("s"));
 let h = "helo";
 
 console.log(h.lastIndexOf("l"));
@@ -931,9 +931,18 @@ let indexNumber = book.charAt(3);
 
 console.log(indexNumber);
 
-console.log(book[4])
+console.log(book[4]);
 
 
-// Strings: replacing characters 
+// Strings: replacing characters ;
+
+    let texts = "my name is naqvi";
+
+    let newText = texts.replace("naqvi" , "faseeh");
+
+    console.log(newText);
+
+
+    
 
 
