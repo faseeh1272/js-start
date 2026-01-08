@@ -940,9 +940,9 @@ console.log(book[4]);
 
     let newText = texts.replace("naqvi" , "faseeh");
 
-    console.log(newText);
+    console.log(newText);     
 
 
-    
+
 
 
