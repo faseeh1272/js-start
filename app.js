@@ -881,16 +881,56 @@
 
 // string ki length nikalna ;
 
-let name = "faseeh naqvi";
-console.log(name.length);
+// let name = "faseeh naqvi";
+// console.log(name.length);
 
-let msg = "hello world";
-console.log(msg.length);
+// let msg = "hello world";
+// console.log(msg.length);
 
-let text = "javascript";
-console.log(text.slice(0,4));
-console.log(text.slice(-6));
+// let text = "javascript";
+// console.log(text.slice(0,4));
+// console.log(text.slice(-6));
 
 
-// console.log(text.substring(4,10)); same as slice method but negative index not allowed in substring method;
+// // console.log(text.substring(4,10)); same as slice method but negative index not allowed in substring method;
+
+// let word = "pakistan";
+
+// console.log(word.slice(-3))
+
+// let message = "Programming";
+// console.log(message.substring(3, 8));
+
+let name = "Faseeh";
+let lastChar = name.slice(name.length - 1);
+console.log(lastChar);
+
+//  Strings: finding segments of a string
+
+let text = "my name is faseeh naqvi";
+
+console.log(text.indexOf("faseeh"));
+console.log(text.includes("naqvi"));
+
+let b = "javascrpt is easy";
+console.log(b.includes("java"));
+console.log(b.includes("easy"));
+
+console.log(b.indexOf("is"));
+
+console.log(b.lastIndexOf("s"))
+let h = "helo";
+
+console.log(h.lastIndexOf("l"));
+
+// using charat method ;
+// string.charat(index);
+let book = "javascript";
+
+let indexNumber = book.charAt(3);
+
+console.log(indexNumber);
+
+console.log(book[4])
+
 
