@@ -1086,7 +1086,9 @@ let toss = Math.random() < 0.5 ? "Head" : "Tail";
 console.log(toss);
 
 let num = "25";
+// console.log(typeof num);String
 let a = parseInt(num);
 
-console.log(num);
+// console.log(typeof a); number
+
 
