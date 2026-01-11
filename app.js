@@ -1055,21 +1055,38 @@ function multiplicate(value1, value2) {
 // console.log(fooVar)
 // myFoo2()
 
-function myFoo2() {
-  let a = 1;
-  let b = 2;
+// function myFoo2() {
+//   let a = 1;
+//   let b = 2;
 
-  function myFoo3() {
-    let c = 3;
-    debugger;
-  }
-  debugger;
-  myFoo3();
-  debugger;
-}
+//   function myFoo3() {
+//     let c = 3;
+//     debugger;
+//   }
+//   debugger;
+//   myFoo3();
+//   debugger;
+// }
 
-myFoo2();
-//  Rounding numbers 
+// myFoo2();
+// //  Rounding numbers :
+// let number = 0.5;
 
+console.log(Math.round(0.5));
+console.log(Math.floor(0.5));
+console.log(Math.ceil(0.5));
 
+console.log(Math.random());
+
+Math.floor(Math.random() * + 1);
+console.log(Math.floor(Math.random() * + 10));
+ 
+
+let toss = Math.random() < 0.5 ? "Head" : "Tail";
+console.log(toss);
+
+let num = "25";
+let a = parseInt(num);
+
+console.log(num);
 
