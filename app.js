@@ -1095,6 +1095,7 @@ let bp = "25.99";
 
 console.log(parseInt(bp));
 
-let 
+let parsfl = "25.99";
+console.log(parseFloat(parsfl));
 
 
