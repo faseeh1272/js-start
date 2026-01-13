@@ -1091,4 +1091,10 @@ let a = parseInt(num);
 
 // console.log(typeof a); number
 
+let bp = "25.99";
+
+console.log(parseInt(bp));
+
+let 
+
 
