@@ -1112,6 +1112,8 @@ let total = parseFloat(price) * parseInt(q);
 
 console.log(total);
 
-let 
+let numbe = "123"; 
+num = Number(numbe);
+console.log(num);
 
 
