@@ -1098,4 +1098,20 @@ console.log(parseInt(bp));
 let parsfl = "25.99";
 console.log(parseFloat(parsfl));
 
+// number ;
+
+let n = "23";
+console.log(Number(n));
+
+let d = "23.99";
+console.log(Number(d));
+
+let price = "99.99";
+let q = "7";
+let total = parseFloat(price) * parseInt(q);
+
+console.log(total);
+
+let 
+
 
