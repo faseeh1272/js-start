@@ -1124,6 +1124,11 @@ console.log(result);
 
 console.log(nm.toPrecision(4));
 
+let num2 = 0.004567;
+console.log(num2.toPrecision(2)); // "0.0046"
+
+let math = math.round()
+
 
 
 
