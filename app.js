@@ -1100,34 +1100,75 @@ console.log(parseFloat(parsfl));
 
 // number ;
 
-let n = "23";
-console.log(Number(n));
+// let n = "23";
+// console.log(Number(n));
 
-let d = "23.99";
-console.log(Number(d));
+// let d = "23.99";
+// console.log(Number(d));
 
-let price = "99.99";
-let q = "7";
-let total = parseFloat(price) * parseInt(q);
+// let price = "99.99";
+// let q = "7";
+// let total = parseFloat(price) * parseInt(q);
 
-console.log(total);
+// console.log(total);
 
-let numbe = "asdff"; 
-num = Number(numbe);
-console.log(num);
+// let numbe = "asdff"; 
+// num = Number(numbe);
+// console.log(num);
 
-let nm = 3.123356767;
+// let nm = 3.123356767;
 
-let result = nm.toFixed(2);
+// let result = nm.toFixed(2);
 
-console.log(result);
+// console.log(result);
 
-console.log(nm.toPrecision(4));
+// console.log(nm.toPrecision(4));
 
-let num2 = 0.004567;
-console.log(num2.toPrecision(2)); // "0.0046"
+// let num2 = 0.004567;
+// console.log(num2.toPrecision(2)); // "0.0046"
 
-let math = math.round()
+// let math = math.round()
+
+// let now = new Date();
+// console.log(now);
+
+// let now = new Date();
+
+// console.log(now)
+
+// let now = new Date();
+
+// let date = now.getDate();        // day (1–31)
+// let month = now.getMonth() + 1;  // month (0 se start hota hai)
+// let year = now.getFullYear();
+
+// console.log(date + "/" + month + "/" + year);
+
+
+let now = new Date();
+
+console.log(now);
+
+let date = now.getDate();
+console.log(date);
+
+let month = now.getMonth();
+
+console.log(month);
+ 
+
+let year = now.getFullYear()
+console.log(year);
+
+console.log(date + "/" + month +  "/"  + year );
+
+// sirf time nikalna 
+
+let hour = now.getHours();
+console.log(hour);
+let minutes = now.getMinutes();
+console.log(minutes);
+
 
 
 
