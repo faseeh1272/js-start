@@ -1112,8 +1112,20 @@ let total = parseFloat(price) * parseInt(q);
 
 console.log(total);
 
-let numbe = "123"; 
+let numbe = "asdff"; 
 num = Number(numbe);
 console.log(num);
+
+let nm = 3.123356767;
+
+let result = nm.toFixed(2);
+
+console.log(result);
+
+console.log(nm.toPrecision(4));
+
+
+
+
 
 
