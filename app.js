@@ -1168,8 +1168,28 @@ let hour = now.getHours();
 console.log(hour);
 let minutes = now.getMinutes();
 console.log(minutes);
+// YYYY-MM-DDTHH:MM:SS
 
 
+let d = new Date();
+console.log(d);
+
+d.setFullYear(2030);
+console.log(d);
+
+d.setMonth(5);
+console.log(d);
+
+function functionname(params) {
+  alert("hello hi jani");
+}
+functionname();
+
+function info(name , age){
+ console.log(name , age);
+
+}
+ info("faseeh", 20);
 
 
 
