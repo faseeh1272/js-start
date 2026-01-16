@@ -1219,9 +1219,30 @@ const multiply = (a, b) => a * b;
 console.log(multiply(3, 4));
 
 // function scope ;
-function test(){
-  let x = 10;
-}
-console.log(x);
+// function test(){
+//   let x = 10;
+// }
+// console.log(x);
 
+// function calling inside function;
+function first(){
+  console.log("first");
+
+  function second(){
+    first();
+    console.log("second");
+  };
+};
+
+second();
+function x() {
+  console.log("X");
+}
+
+function y() {
+  x();
+  x();
+}
+
+y();
 
