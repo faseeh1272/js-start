@@ -1218,5 +1218,10 @@ console.log(add(2, 3));
 const multiply = (a, b) => a * b;
 console.log(multiply(3, 4));
 
+// function scope ;
+function test(){
+  let x = 10;
+}
+console.log(x);
 
 
