@@ -1201,5 +1201,13 @@ function square(num){
 let result = square(4);
 console.log(result);
 
+// defuilt parameter ;
+function greet(name = "faseeh"){
+  console.log("hello" + "" + name);
+}
+
+greet();
+greet("alui");
+
 
 
