@@ -1207,7 +1207,9 @@ function greet(name = "faseeh"){
 }
 
 greet();
-greet("alui");
+greet("faseeh");
+
+
 
 
 
