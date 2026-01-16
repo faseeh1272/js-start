@@ -1180,6 +1180,8 @@ console.log(d);
 d.setMonth(5);
 console.log(d);
 
+// function define block of code perform work
+
 function functionname(params) {
   alert("hello hi jani");
 }
@@ -1191,7 +1193,13 @@ function info(name , age){
 }
  info("faseeh", 20);
 
+// return keyword value wapas deta ha
+function square(num){
+  return num * num
+}
 
+let result = square(4);
+console.log(result);
 
 
 
