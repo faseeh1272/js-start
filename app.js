@@ -873,376 +873,474 @@
 
 // function capitalize(str){
 //     let firstchar = str.toUpperCase().slice(0,1);
-//     let otherchars = str.toLowerCase().slice(1);
-//     return firstchar + otherchars;
+// //     let otherchars = str.toLowerCase().slice(1);
+// //     return firstchar + otherchars;
+// // }
+
+// // console.log(capitalize("karachi"));
+
+// // string ki length nikalna ;
+
+// // let name = "faseeh naqvi";
+// // console.log(name.length);
+
+// // let msg = "hello world";
+// // console.log(msg.length);
+
+// // let text = "javascript";
+// // console.log(text.slice(0,4));
+// // console.log(text.slice(-6));
+
+
+// // // console.log(text.substring(4,10)); same as slice method but negative index not allowed in substring method;
+
+// // let word = "pakistan";
+
+// // console.log(word.slice(-3))
+
+// // let message = "Programming";
+// // console.log(message.substring(3, 8));
+
+// let name = "Faseeh";
+// let lastChar = name.slice(name.length - 1);
+// console.log(lastChar);
+
+// //  Strings: finding segments of a string
+
+// let text = "my name is faseeh naqvi";
+
+// console.log(text.indexOf("faseeh"));
+// console.log(text.includes("naqvi"));
+
+// let b = "javascrpt is easy";
+// console.log(b.includes("java"));
+// console.log(b.includes("easy"));
+
+// console.log(b.indexOf("is"));
+
+// console.log(b.lastIndexOf("s"));
+// let h = "helo";
+
+// console.log(h.lastIndexOf("l"));
+
+// // using charat method ;
+// // string.charat(index);
+// let book = "javascript";
+
+// let indexNumber = book.charAt(3);
+
+// console.log(indexNumber);
+
+// console.log(book[4]);
+
+
+// // Strings: replacing characters ;
+
+//     let texts = "my name is naqvi";
+
+//     let newText = texts.replace("naqvi" , "faseeh");
+
+//     console.log(newText);     
+
+
+// function myFoo(userName) {
+//   // if ("conditions") {
+//   //   var a = 1;
+//   // }
+//   console.log(a);
+//   alert("Hello " + userName + ", Nice Pic");
 // }
 
-// console.log(capitalize("karachi"));
+// // invoke/call
+// // myFoo("Uzair");
+// // myFoo("Rehman");
 
-// string ki length nikalna ;
-
-// let name = "faseeh naqvi";
-// console.log(name.length);
-
-// let msg = "hello world";
-// console.log(msg.length);
-
-// let text = "javascript";
-// console.log(text.slice(0,4));
-// console.log(text.slice(-6));
-
-
-// // console.log(text.substring(4,10)); same as slice method but negative index not allowed in substring method;
-
-// let word = "pakistan";
-
-// console.log(word.slice(-3))
-
-// let message = "Programming";
-// console.log(message.substring(3, 8));
-
-let name = "Faseeh";
-let lastChar = name.slice(name.length - 1);
-console.log(lastChar);
-
-//  Strings: finding segments of a string
-
-let text = "my name is faseeh naqvi";
-
-console.log(text.indexOf("faseeh"));
-console.log(text.includes("naqvi"));
-
-let b = "javascrpt is easy";
-console.log(b.includes("java"));
-console.log(b.includes("easy"));
-
-console.log(b.indexOf("is"));
-
-console.log(b.lastIndexOf("s"));
-let h = "helo";
-
-console.log(h.lastIndexOf("l"));
-
-// using charat method ;
-// string.charat(index);
-let book = "javascript";
-
-let indexNumber = book.charAt(3);
-
-console.log(indexNumber);
-
-console.log(book[4]);
-
-
-// Strings: replacing characters ;
-
-    let texts = "my name is naqvi";
-
-    let newText = texts.replace("naqvi" , "faseeh");
-
-    console.log(newText);     
-
-
-function myFoo(userName) {
-  // if ("conditions") {
-  //   var a = 1;
-  // }
-  console.log(a);
-  alert("Hello " + userName + ", Nice Pic");
-}
-
-// invoke/call
-// myFoo("Uzair");
-// myFoo("Rehman");
-
-// Function is a block of code
-// Definition
-function greet(userName, userAge) {
-  // const userName2 = "Abc";
-  // debugger;
-  // console.log(userName);
-  // alert("Welcome ");
-}
-
-// invoke /call
-greet("Wasif");
-greet(25);
-greet("Abdullah");
-
-// passing reference
-// const newGreet = greet;
-// console.log(newGreet);
-console.log("abc", "def");
-
-// function sum(value1, value2) {
-//   let value = 1;
-//   value++;
-//   console.log(value);
-//   // return finalValue;
+// // Function is a block of code
+// // Definition
+// function greet(userName, userAge) {
+//   // const userName2 = "Abc";
+//   // debugger;
+//   // console.log(userName);
+//   // alert("Welcome ");
 // }
-// const result1 = sum();
-// sum();
 
-// console.log(result1);
+// // invoke /call
+// greet("Wasif");
+// greet(25);
+// greet("Abdullah");
 
-function addition(value1, value2) {
-  const result = value1 + value2;
-  return result;
-}
+// // passing reference
+// // const newGreet = greet;
+// // console.log(newGreet);
+// console.log("abc", "def");
 
-function substraction(value1, value2) {
-  const result = value1 - value2;
-  return result;
-}
+// // function sum(value1, value2) {
+// //   let value = 1;
+// //   value++;
+// //   console.log(value);
+// //   // return finalValue;
+// // }
+// // const result1 = sum();
+// // sum();
 
-function division(value1, value2) {
-  const result = value1 / value2;
-  return result;
-}
+// // console.log(result1);
 
-function multiplicate(value1, value2) {
-  const result = value1 * value2;
-  return result;
-}
-
-// function sum(value1, value2, operator) {
-//   if (operator === "+") return addition(value1, value2);
-//   if (operator === "-") return substraction(value1, value2);
-//   if (operator === "/") return division(value1, value2);
-//   if (operator === "*") return multiplicate(value1, value2);
-
-//   alert("Invalid Operator");
-// }
-// function sum(value1, value2, operator) {
-//   let result = null;
-//   if (operator === "+") {
-//     result = addition(value1, value2);
-//   }
-//   if (operator === "-") {
-//     result = substraction(value1, value2);
-//   }
-//   if (operator === "/") {
-//     result = division(value1, value2);
-//   }
-//   if (operator === "*") {
-//     result = multiplicate(value1, value2);
-//   }
-
-//   if(result === null) {
-//     alert("Invalid Operator");
-//     return;
-//   }
+// function addition(value1, value2) {
+//   const result = value1 + value2;
 //   return result;
 // }
 
-// const sumResult = sum(10, 12, "*");
-// console.log(sumResult);
-
-// // function-scope
-// var
-
-// // block-scope
-// let
-// const
-// let a = 123
-// function myFoo2() {
-//   let fooVar = 123;
-
-//   if (true) {
-//     console.log(fooVar,"abc");
-//   }
-// }
-// console.log(fooVar)
-// myFoo2()
-
-// function myFoo2() {
-//   let a = 1;
-//   let b = 2;
-
-//   function myFoo3() {
-//     let c = 3;
-//     debugger;
-//   }
-//   debugger;
-//   myFoo3();
-//   debugger;
+// function substraction(value1, value2) {
+//   const result = value1 - value2;
+//   return result;
 // }
 
-// myFoo2();
-// //  Rounding numbers :
-// let number = 0.5;
+// function division(value1, value2) {
+//   const result = value1 / value2;
+//   return result;
+// }
 
-console.log(Math.round(0.5));
-console.log(Math.floor(0.5));
-console.log(Math.ceil(0.5));
+// function multiplicate(value1, value2) {
+//   const result = value1 * value2;
+//   return result;
+// }
 
-console.log(Math.random());
+// // function sum(value1, value2, operator) {
+// //   if (operator === "+") return addition(value1, value2);
+// //   if (operator === "-") return substraction(value1, value2);
+// //   if (operator === "/") return division(value1, value2);
+// //   if (operator === "*") return multiplicate(value1, value2);
 
-Math.floor(Math.random() * + 1);
-console.log(Math.floor(Math.random() * + 10));
+// //   alert("Invalid Operator");
+// // }
+// // function sum(value1, value2, operator) {
+// //   let result = null;
+// //   if (operator === "+") {
+// //     result = addition(value1, value2);
+// //   }
+// //   if (operator === "-") {
+// //     result = substraction(value1, value2);
+// //   }
+// //   if (operator === "/") {
+// //     result = division(value1, value2);
+// //   }
+// //   if (operator === "*") {
+// //     result = multiplicate(value1, value2);
+// //   }
+
+// //   if(result === null) {
+// //     alert("Invalid Operator");
+// //     return;
+// //   }
+// //   return result;
+// // }
+
+// // const sumResult = sum(10, 12, "*");
+// // console.log(sumResult);
+
+// // // function-scope
+// // var
+
+// // // block-scope
+// // let
+// // const
+// // let a = 123
+// // function myFoo2() {
+// //   let fooVar = 123;
+
+// //   if (true) {
+// //     console.log(fooVar,"abc");
+// //   }
+// // }
+// // console.log(fooVar)
+// // myFoo2()
+
+// // function myFoo2() {
+// //   let a = 1;
+// //   let b = 2;
+
+// //   function myFoo3() {
+// //     let c = 3;
+// //     debugger;
+// //   }
+// //   debugger;
+// //   myFoo3();
+// //   debugger;
+// // }
+
+// // myFoo2();
+// // //  Rounding numbers :
+// // let number = 0.5;
+
+// console.log(Math.round(0.5));
+// console.log(Math.floor(0.5));
+// console.log(Math.ceil(0.5));
+
+// console.log(Math.random());
+
+// Math.floor(Math.random() * + 1);
+// console.log(Math.floor(Math.random() * + 10));
  
 
-let toss = Math.random() < 0.5 ? "Head" : "Tail";
-console.log(toss);
+// let toss = Math.random() < 0.5 ? "Head" : "Tail";
+// console.log(toss);
 
-let num = "25";
-// console.log(typeof num);String
-let a = parseInt(num);
+// let num = "25";
+// // console.log(typeof num);String
+// let a = parseInt(num);
 
-// console.log(typeof a); number
+// // console.log(typeof a); number
 
-let bp = "25.99";
+// let bp = "25.99";
 
-console.log(parseInt(bp));
+// console.log(parseInt(bp));
 
-let parsfl = "25.99";
-console.log(parseFloat(parsfl));
+// let parsfl = "25.99";
+// console.log(parseFloat(parsfl));
 
-// number ;
+// // number ;
 
-// let n = "23";
-// console.log(Number(n));
+// // let n = "23";
+// // console.log(Number(n));
 
-// let d = "23.99";
-// console.log(Number(d));
+// // let d = "23.99";
+// // console.log(Number(d));
 
-// let price = "99.99";
-// let q = "7";
-// let total = parseFloat(price) * parseInt(q);
+// // let price = "99.99";
+// // let q = "7";
+// // let total = parseFloat(price) * parseInt(q);
 
-// console.log(total);
+// // console.log(total);
 
-// let numbe = "asdff"; 
-// num = Number(numbe);
-// console.log(num);
+// // let numbe = "asdff"; 
+// // num = Number(numbe);
+// // console.log(num);
 
-// let nm = 3.123356767;
+// // let nm = 3.123356767;
 
-// let result = nm.toFixed(2);
+// // let result = nm.toFixed(2);
 
-// console.log(result);
+// // console.log(result);
 
-// console.log(nm.toPrecision(4));
+// // console.log(nm.toPrecision(4));
 
-// let num2 = 0.004567;
-// console.log(num2.toPrecision(2)); // "0.0046"
+// // let num2 = 0.004567;
+// // console.log(num2.toPrecision(2)); // "0.0046"
 
-// let math = math.round()
+// // let math = math.round()
+
+// // let now = new Date();
+// // console.log(now);
+
+// // let now = new Date();
+
+// // console.log(now)
+
+// // let now = new Date();
+
+// // let date = now.getDate();        // day (1–31)
+// // let month = now.getMonth() + 1;  // month (0 se start hota hai)
+// // let year = now.getFullYear();
+
+// // console.log(date + "/" + month + "/" + year);
+
 
 // let now = new Date();
+
 // console.log(now);
 
-// let now = new Date();
+// let date = now.getDate();
+// console.log(date);
 
-// console.log(now)
+// let month = now.getMonth();
 
-// let now = new Date();
-
-// let date = now.getDate();        // day (1–31)
-// let month = now.getMonth() + 1;  // month (0 se start hota hai)
-// let year = now.getFullYear();
-
-// console.log(date + "/" + month + "/" + year);
-
-
-let now = new Date();
-
-console.log(now);
-
-let date = now.getDate();
-console.log(date);
-
-let month = now.getMonth();
-
-console.log(month);
+// console.log(month);
  
 
-let year = now.getFullYear()
-console.log(year);
+// let year = now.getFullYear()
+// console.log(year);
 
-console.log(date + "/" + month +  "/"  + year );
+// console.log(date + "/" + month +  "/"  + year );
 
-// sirf time nikalna 
+// // sirf time nikalna 
 
-let hour = now.getHours();
-console.log(hour);
-let minutes = now.getMinutes();
-console.log(minutes);
-// YYYY-MM-DDTHH:MM:SS
+// let hour = now.getHours();
+// console.log(hour);
+// let minutes = now.getMinutes();
+// console.log(minutes);
+// // YYYY-MM-DDTHH:MM:SS
 
 
-let d = new Date();
-console.log(d);
+// let d = new Date();
+// console.log(d);
 
-d.setFullYear(2030);
-console.log(d);
+// d.setFullYear(2030);
+// console.log(d);
 
-d.setMonth(5);
-console.log(d);
+// d.setMonth(5);
+// console.log(d);
 
-// function define block of code perform work
+// // function define block of code perform work
 
-function functionname(params) {
-  alert("hello hi jani");
-}
-functionname();
+// function functionname(params) {
+//   alert("hello hi jani");
+// }
+// functionname();
 
-function info(name , age){
- console.log(name , age);
+// function info(name , age){
+//  console.log(name , age);
 
-}
- info("faseeh", 20);
+// }
+//  info("faseeh", 20);
 
-// return keyword value wapas deta ha
-function square(num){
-  return num * num
-}
+// // return keyword value wapas deta ha
+// function square(num){
+//   return num * num
+// }
 
-let result = square(4);
-console.log(result);
+// let result = square(4);
+// console.log(result);
 
-// defuilt parameter ;
-function greet(name = "faseeh"){
-  console.log("hello" + "" + name);
-}
+// // defuilt parameter ;
+// function greet(name = "faseeh"){
+//   console.log("hello" + "" + name);
+// }
 
-greet();
-greet("faseeh");
+// greet();
+// greet("faseeh");
 
 // function ko variable main stoe karna 
-let add = function(a, b){
-  return a + b ;
-}
-console.log(add(2, 3));
+// let add = function(a, b){
+//   return a + b ;
+// }
+// console.log(add(2, 3));
 
-const multiply = (a, b) => a * b;
-console.log(multiply(3, 4));
+// const multiply = (a, b) => a * b;
+// console.log(multiply(3, 4));
 
-// function scope ;
+// // function scope ;
 // function test(){
 //   let x = 10;
 // }
 // console.log(x);
 
 // function calling inside function;
-function first(){
-  console.log("first");
+// function first(){
+//   console.log("first");
 
-  function second(){
-    first();
-    console.log("second");
-  };
+//   function second(){
+//     first();
+//     console.log("second");
+//   };
+// };
+
+// second();
+// function x() {
+//   console.log("X");
+// }
+
+// function y() {
+//   x();
+//   x();
+// }
+
+// y();
+
+
+// function info(name){
+//   console.log("hello" + name);
+// }
+// info("faseeh");
+
+// function add(a, b){
+
+//   console.log(a + b);
+
+// }
+
+// add(3, 5);
+
+// function plus(a, b){
+  
+// }
+
+// function again
+
+// function greet(name){
+//  console.log(name);
+// }
+
+// greet("fasseeh");
+
+// function geet(){
+//   alert("hi jani")
+// }
+// geet();
+function gret() {
+    alert("Hello World")
+}
+gret()
+
+function greet(name){
+  alert("hello" + name)
+}
+
+greet("faseeh");
+
+// let sayHi = function() {
+//   console.log("hi")
+// }
+let sayHi = function() {
+    console.log("Hi");
 };
 
-second();
-function x() {
-  console.log("X");
+sayHi();
+// sayHi();   // ❌ Error: sayHi is not defined
+
+// let sayHi = function() {
+//     console.log("Hi");
+// };
+
+
+function add(a, b){
+  return a + b
 }
 
-function y() {
-  x();
-  x();
+
+
+let result = add(5, 3);
+console.log(result)
+
+function calculate(price,  quantity){
+  let total = price * quantity;
+  console.log(total);
 }
 
-y();
+calculate(500, 3)
 
+function sayhello(name = "faeehnaqvi"){
+  console.log("hi" + name);
+}
+
+sayhello("ali");
+sayhello("naqvi")
+
+// function sy object retun karna;
+
+function getUser(){
+  return {
+    name : "faseeh",
+    age : 20
+  }
+}
+
+let user = getUser();
+
+console.log(user.name);
+console.log(user.age);
+
+function arr(){
+  return [1, 2, 3, 4]
+}
+let number = arr();
+console.log(number[3])
