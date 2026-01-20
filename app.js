@@ -1343,4 +1343,36 @@ function arr(){
   return [1, 2, 3, 4]
 }
 let number = arr();
-console.log(number[3])
+console.log(number[3]);
+// jo variables function k bahir declare ho wo global variables hoty han;
+let name = "faseeh";
+
+function grt(){
+  let mfg = "hello faseeh";
+  alert(mfg)
+}
+
+grt()
+
+let score = 10;  // global
+
+function game(){
+  let score = 50;
+alert(score);
+}
+game();
+alert(score);
+
+function add(total){
+  return total + 5
+}
+
+let reslt = add(10);
+alert(reslt);
+// switch statement tab use hota ha jab ham ak hi variable ko multiples value sy check kartyu han ye if...else if...else ka clean versiion ha;
+// basic structure
+
+switch (expression){
+  case 1: 
+  break;
+}
