@@ -749,7 +749,7 @@
 
 
 // let colors = [ "red" , "green" , "blue" , "yellow"];
- 
+
 // colors.slice(1);
 // console.log(colors.slice(1 , 2 ));
 
@@ -1080,7 +1080,7 @@
 
 // Math.floor(Math.random() * + 1);
 // console.log(Math.floor(Math.random() * + 10));
- 
+
 
 // let toss = Math.random() < 0.5 ? "Head" : "Tail";
 // console.log(toss);
@@ -1155,7 +1155,7 @@
 // let month = now.getMonth();
 
 // console.log(month);
- 
+
 
 // let year = now.getFullYear()
 // console.log(year);
@@ -1195,184 +1195,258 @@
 
 // // return keyword value wapas deta ha
 // function square(num){
-//   return num * num
+// //   return num * num
+// // }
+
+// // let result = square(4);
+// // console.log(result);
+
+// // // defuilt parameter ;
+// // function greet(name = "faseeh"){
+// //   console.log("hello" + "" + name);
+// // }
+
+// // greet();
+// // greet("faseeh");
+
+// // function ko variable main stoe karna 
+// // let add = function(a, b){
+// //   return a + b ;
+// // }
+// // console.log(add(2, 3));
+
+// // const multiply = (a, b) => a * b;
+// // console.log(multiply(3, 4));
+
+// // // function scope ;
+// // function test(){
+// //   let x = 10;
+// // }
+// // console.log(x);
+
+// // function calling inside function;
+// // function first(){
+// //   console.log("first");
+
+// //   function second(){
+// //     first();
+// //     console.log("second");
+// //   };
+// // };
+
+// // second();
+// // function x() {
+// //   console.log("X");
+// // }
+
+// // function y() {
+// //   x();
+// //   x();
+// // }
+
+// // y();
+
+
+// // function info(name){
+// //   console.log("hello" + name);
+// // }
+// // info("faseeh");
+
+// // function add(a, b){
+
+// //   console.log(a + b);
+
+// // }
+
+// // add(3, 5);
+
+// // function plus(a, b){
+
+// // }
+
+// // function again
+
+// // function greet(name){
+// //  console.log(name);
+// // }
+
+// // greet("fasseeh");
+
+// // function geet(){
+// //   alert("hi jani")
+// // }
+// // geet();
+// function gret() {
+//   alert("Hello World")
+// }
+// gret()
+
+// function greet(name) {
+//   alert("hello" + name)
 // }
 
-// let result = square(4);
-// console.log(result);
-
-// // defuilt parameter ;
-// function greet(name = "faseeh"){
-//   console.log("hello" + "" + name);
-// }
-
-// greet();
 // greet("faseeh");
 
-// function ko variable main stoe karna 
-// let add = function(a, b){
-//   return a + b ;
-// }
-// console.log(add(2, 3));
-
-// const multiply = (a, b) => a * b;
-// console.log(multiply(3, 4));
-
-// // function scope ;
-// function test(){
-//   let x = 10;
-// }
-// console.log(x);
-
-// function calling inside function;
-// function first(){
-//   console.log("first");
-
-//   function second(){
-//     first();
-//     console.log("second");
-//   };
+// // let sayHi = function() {
+// //   console.log("hi")
+// // }
+// let sayHi = function () {
+//   console.log("Hi");
 // };
 
-// second();
-// function x() {
-//   console.log("X");
+// sayHi();
+// // sayHi();   // ❌ Error: sayHi is not defined
+
+// // let sayHi = function() {
+// //     console.log("Hi");
+// // };
+
+
+// function add(a, b) {
+//   return a + b
 // }
 
-// function y() {
-//   x();
-//   x();
+
+
+// let result = add(5, 3);
+// console.log(result)
+
+// function calculate(price, quantity) {
+//   let total = price * quantity;
+//   console.log(total);
 // }
 
-// y();
+// calculate(500, 3)
 
-
-// function info(name){
-//   console.log("hello" + name);
-// }
-// info("faseeh");
-
-// function add(a, b){
-
-//   console.log(a + b);
-
+// function sayhello(name = "faeehnaqvi") {
+//   console.log("hi" + name);
 // }
 
-// add(3, 5);
+// sayhello("ali");
+// sayhello("naqvi")
 
-// function plus(a, b){
+// // function sy object retun karna;
+
+// function getUser() {
+//   return {
+//     name: "faseeh",
+//     age: 20
+//   }
+// }
+
+// let user = getUser();
+
+// console.log(user.name);
+// console.log(user.age);
+
+// function arr() {
+//   return [1, 2, 3, 4]
+// }
+// let number = arr();
+// console.log(number[3]);
+// // jo variables function k bahir declare ho wo global variables hoty han;
+// let name = "faseeh";
+
+// function grt() {
+//   let mfg = "hello faseeh";
+//   alert(mfg)
+// }
+
+// grt()
+
+// let score = 10;  // global
+
+// function game() {
+//   let score = 50;
+//   alert(score);
+// }
+// game();
+// alert(score);
+
+// function add(total) {
+//   return total + 5
+// }
+
+// let reslt = add(10);
+// alert(reslt);
+// // switch statement tab use hota ha jab ham ak hi variable ko multiples value sy check kartyu han ye if...else if...else ka clean versiion ha;
+// // basic structure
+
+// // switch (expression){
+// //   case 1: 
+// //   break;
+// // }
+// let day = 3;
+
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+
+//   default:
+//     console.log("Invalid day");
+// }
+// let month = "march";
+
+// switch (month) {
+//   case 1:
+//     console.log("jan");
+//     break;
+
+//   case 2:
+//     console.log("feb");
+//     break;
+//   case 3:
+//     console.log("march");
+//     break;
+//    default:
+//     console.log("invalid month");
+
+
+// }
+
+// while loop;
+
+// let i = 1;
+// while (i <= 5){
+//   console.log(i)
+//   i++;
+// }
+
+// let i = 2;
+// while (i <= 10){
+//   console.log(i);
+//   i++;
+// }
+// let num = 5;
+// while (num > 0){
+//   console.log(num);
+//   num--;
+// }
+
+// let password = "";
+// while(password !== "1234"){
+//   password = prompt("Enter password");
   
 // }
+// alert("acces granted")
 
-// function again
+// const link = document.getElementById("mylink");
+// link.addEventListener("click", function(events){
+//   events.preventDefault();
+//   alert("link clicked!");
+// })
 
-// function greet(name){
-//  console.log(name);
-// }
-
-// greet("fasseeh");
-
-// function geet(){
-//   alert("hi jani")
-// }
-// geet();
-function gret() {
-    alert("Hello World")
-}
-gret()
-
-function greet(name){
-  alert("hello" + name)
-}
-
-greet("faseeh");
-
-// let sayHi = function() {
-//   console.log("hi")
-// }
-let sayHi = function() {
-    console.log("Hi");
-};
-
-sayHi();
-// sayHi();   // ❌ Error: sayHi is not defined
-
-// let sayHi = function() {
-//     console.log("Hi");
-// };
-
-
-function add(a, b){
-  return a + b
-}
-
-
-
-let result = add(5, 3);
-console.log(result)
-
-function calculate(price,  quantity){
-  let total = price * quantity;
-  console.log(total);
-}
-
-calculate(500, 3)
-
-function sayhello(name = "faeehnaqvi"){
-  console.log("hi" + name);
-}
-
-sayhello("ali");
-sayhello("naqvi")
-
-// function sy object retun karna;
-
-function getUser(){
-  return {
-    name : "faseeh",
-    age : 20
-  }
-}
-
-let user = getUser();
-
-console.log(user.name);
-console.log(user.age);
-
-function arr(){
-  return [1, 2, 3, 4]
-}
-let number = arr();
-console.log(number[3]);
-// jo variables function k bahir declare ho wo global variables hoty han;
-let name = "faseeh";
-
-function grt(){
-  let mfg = "hello faseeh";
-  alert(mfg)
-}
-
-grt()
-
-let score = 10;  // global
-
-function game(){
-  let score = 50;
-alert(score);
-}
-game();
-alert(score);
-
-function add(total){
-  return total + 5
-}
-
-let reslt = add(10);
-alert(reslt);
-// switch statement tab use hota ha jab ham ak hi variable ko multiples value sy check kartyu han ye if...else if...else ka clean versiion ha;
-// basic structure
-
-switch (expression){
-  case 1: 
-  break;
-}
+// const button = document.getElementById("myButton");
+// button.addEventListener("click", function(){
+//   // alert("button clicked!");
+//   // button.innerText = "clicked!"
+// })
