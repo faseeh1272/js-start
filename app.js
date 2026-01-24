@@ -1450,3 +1450,12 @@
 //   // alert("button clicked!");
 //   // button.innerText = "clicked!"
 // })
+
+const button = document.getElementById("myButton");
+const msg = document.getElementById("msg");
+let clickCount = 0;
+button.addEventListener("click", function(){
+  clickCount++;
+  console.log("button clicked " + clickCount + " times");
+}
+)
